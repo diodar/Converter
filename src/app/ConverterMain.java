@@ -6,15 +6,17 @@ public class ConverterMain {
         System.out.println("Distance from NewYork to Miami in miles: " + mi);
         double distanceInKm = convertMilesToKms(mi);
         System.out.println("Distance from NewYork to Miami in kilometres: " + distanceInKm);
-    }
 
-    private static double convertMilesToKms(double mi) {
-        return mi * 1.60934;
         double km = 473;
         System.out.println("Distance from Kyiv to Odesa in kilometres: " + km);
         double distanceInMi = convertKmsToMiles(km);
         System.out.println("Distance from Kyiv to Odesa in miles: " + distanceInMi);
     }
+
+    private static double convertMilesToKms(double mi) {
+        return mi * 1.60934;
+    }
+
     private static double convertKmsToMiles(double km) {
         return km / 1.60934;
     }
