@@ -2,6 +2,7 @@ package app;
 
 public class ConverterMain {
     public static void main(String[] args) {
-        System.out.println("My git app.");
+        double km = 473;
+        System.out.println("Distance from Kyiv to Odesa in kilometres: " + km);
     }
 }
